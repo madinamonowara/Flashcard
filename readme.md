@@ -5,12 +5,11 @@
 ## Lab 1
 
 ### App Description
-`TODO://` Add app description
+Flashcard App - tap the card to reveal the answer
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://user-images.githubusercontent.com/81177928/191282105-0ffdddea-8911-4883-b9cd-00db330581c1.gif" width=300><br>
 
 
 ## Required
