@@ -16,6 +16,7 @@
 		2238B0F928D170A5001EC8D2 /* FlashcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2238B0F828D170A5001EC8D2 /* FlashcardTests.swift */; };
 		2238B10328D170A5001EC8D2 /* FlashcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2238B10228D170A5001EC8D2 /* FlashcardUITests.swift */; };
 		2238B10528D170A5001EC8D2 /* FlashcardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2238B10428D170A5001EC8D2 /* FlashcardUITestsLaunchTests.swift */; };
+		22834B2528E3E55300E14FF5 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22834B2428E3E55300E14FF5 /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2238B0FE28D170A5001EC8D2 /* FlashcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2238B10228D170A5001EC8D2 /* FlashcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardUITests.swift; sourceTree = "<group>"; };
 		2238B10428D170A5001EC8D2 /* FlashcardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22834B2428E3E55300E14FF5 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2238B0E328D170A4001EC8D2 /* SceneDelegate.swift */,
 				2238B0E528D170A4001EC8D2 /* ViewController.swift */,
 				2238B0E728D170A4001EC8D2 /* Main.storyboard */,
+				22834B2428E3E55300E14FF5 /* CreationViewController.swift */,
 				2238B0EA28D170A5001EC8D2 /* Assets.xcassets */,
 				2238B0EC28D170A5001EC8D2 /* LaunchScreen.storyboard */,
 				2238B0EF28D170A5001EC8D2 /* Info.plist */,
@@ -261,6 +264,7 @@
 				2238B0E628D170A4001EC8D2 /* ViewController.swift in Sources */,
 				2238B0E228D170A4001EC8D2 /* AppDelegate.swift in Sources */,
 				2238B0E428D170A4001EC8D2 /* SceneDelegate.swift in Sources */,
+				22834B2528E3E55300E14FF5 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
