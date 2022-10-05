@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         frontLabel.isHidden = true
     }
     
+
+    //comment
     func updateFlashcard(question: String, answer: String){
         frontLabel.text = question
         backLabel.text = answer
