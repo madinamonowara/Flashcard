@@ -5,9 +5,10 @@
 ### App Description
 Add a new card to your deck!
 
-### App Walk-though
-###m
+### App Walk-through
+
 <img src="https://user-images.githubusercontent.com/81177928/193929938-1282426c-6b81-44c9-aafe-c9af287b68ac.gif" width=200><br>
+<img src="https://user-images.githubusercontent.com/81177928/194729025-e89674ee-84da-465b-b840-c1df31dd9ed8.gif" width=200><br>
 
 ### Required
 - [x] User can open the creation screen
@@ -24,7 +25,7 @@ Add a new card to your deck!
 ### App Description
 Flashcard App - tap the card to reveal the answer
 
-### App Walk-though
+### App Walk-through
 
 <img src="https://user-images.githubusercontent.com/81177928/191282105-0ffdddea-8911-4883-b9cd-00db330581c1.gif" width=300><br>
 
