@@ -28,34 +28,70 @@ class ViewController: UIViewController {
         } else{
             updateLabels()
             updateNextPrevButtons()
-            
         }
-        
     }
     //comment
     
+    @IBOutlet weak var card: UIView!
     @IBAction func didTapOnFlashcard(_ sender: Any) {
+        flipFlashcard()
+    }
+    //lab 0ct 25 week 7
+    func flipFlashcard(){
         if frontLabel.isHidden == true {
             frontLabel.isHidden = false
         } else{
             frontLabel.isHidden = true
         }
+        UIView.transition(with: card, duration: 0.3, options: .transitionFlipFromRight, animations: {self.frontLabel.isHidden = true})
     }
-    //dkjheiuhg       
+    
+    func animateCardout(){
+        UIView.animate(withDuration: 0.3, animations:
+                {self.card.transform = CGAffineTransform.identity.translatedBy(x: -300.00, y: 0.0)
+        }, completion: {finished in
+            self.updateLabels()
+            self.animateCardin()
+        })
+    }
+    func animateCardin(){
+        card.transform = CGAffineTransform.identity.translatedBy(x: 300.00, y: 0.0)
+        UIView.animate(withDuration: 0.3){
+            self.card.transform = CGAffineTransform.identity
+        }
+    }
+    
+    //@IBAction func didTapOnPrev(_ sender: Any) {
+       // currentindex = currentindex - 1
+      //  updateNextPrevButtons()
+      //  updateLabels()
+        
+    //}
+    
     
     @IBAction func didTapOnPrev(_ sender: Any) {
         currentindex = currentindex - 1
         updateNextPrevButtons()
         updateLabels()
     }
+    
+    
     @IBAction func didTapOnNext(_ sender: Any) {
         currentindex = currentindex + 1
         updateNextPrevButtons()
         updateLabels()
+        animateCardout()
     }
     
-    @IBOutlet weak var prevButton: UIButton!
+    //@IBAction func didTapOnNext(_ sender: Any) {
+        //currentindex = currentindex + 1
+        //updateNextPrevButtons()
+       // updateLabels()
+      //  animateCardout()
+   // }
+    
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var prevButton: UIButton!
     
     func updateLabels(){
         let currentFlashcard = flashcards[currentindex]
