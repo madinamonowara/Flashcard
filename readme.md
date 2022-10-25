@@ -4,9 +4,8 @@
 ### App Description
     Animations Included!
 
-### App Walk-though
-
-<img src="https://submissions.us-east-1.linodeobjects.com/mobile_app_design/ePuLyfPY.gif" width=200><br>
+### App Walk-through
+<img src="https://user-images.githubusercontent.com/81177928/197838684-98ec10a6-d5b2-48aa-b8ce-401a9b3fbc85.gif" width=200><br>
 
 
 ### Required
