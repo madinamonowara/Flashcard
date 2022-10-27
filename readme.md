@@ -5,6 +5,8 @@
     Animations Included!
 
 ### App Walk-through
+<img src="https://user-images.githubusercontent.com/81177928/198337772-0047d716-4b3f-4551-9dd1-dcf7224c0a00.png" width=200><br>
+<img src="https://user-images.githubusercontent.com/81177928/198336868-07f2e0af-f4c4-4564-bbb3-fc08e04b1632.gif" width=200><br>
 <img src="https://user-images.githubusercontent.com/81177928/197838684-98ec10a6-d5b2-48aa-b8ce-401a9b3fbc85.gif" width=200><br>
 
 

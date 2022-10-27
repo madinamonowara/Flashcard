@@ -73,6 +73,7 @@ class ViewController: UIViewController {
         currentindex = currentindex - 1
         updateNextPrevButtons()
         updateLabels()
+        animateCardout()
     }
     
     
